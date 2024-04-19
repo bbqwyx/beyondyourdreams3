@@ -1,7 +1,7 @@
 }
 body {
     background-color: #E8FAF3;
-    font-family: Tahoma ;
+    font-family: Tahoma;
 }
 .culture {
 	color: white;
@@ -11,14 +11,14 @@ body {
 	margin-left: 15px;
 	padding: 5px;
 	width: 100%;
-    font-size: 22px;
+	font-size: 22px;
 }
 .wall h2 {
 	color: white;
 	text-shadow: 0 0 5px #377BBA;
 	margin-left: 25px;
 	width: 100%;
-  font-size: 27px;
+	font-size: 27px;
 }
 .wall .slider {
   position: relative;
