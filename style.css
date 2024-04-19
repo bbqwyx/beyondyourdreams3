@@ -1,9 +1,8 @@
-}
 body {
-    background-color: #E8FAF3;
-    font-family: Tahoma;
+  background-color: #E8FAF3;
+  font-family: Tahoma ;
 }
-.culture {
+.beauty {
 	color: white;
 	text-shadow: 0 0 5px #377BBA;
 	background-image: linear-gradient(to bottom right, #E1F6E7, #CEE5EF);
@@ -11,16 +10,16 @@ body {
 	margin-left: 15px;
 	padding: 5px;
 	width: 100%;
-	font-size: 22px;
+  font-size: 22px;
 }
-.wall h2 {
+.nature h2 {
 	color: white;
 	text-shadow: 0 0 5px #377BBA;
 	margin-left: 25px;
 	width: 100%;
-	font-size: 27px;
+  font-size: 27px;
 }
-.wall .slider {
+.nature .slider {
   position: relative;
   width: 680px;
   margin: 25px;
@@ -28,15 +27,15 @@ body {
   border-radius: 10px;
   transition: 0.3s;
 }
-.wall .slider:hover {
+.nature .slider:hover {
 	box-shadow: 0 0px 4px 0px #7BB5EA;
 }
 
-.wall .slider input[name="switch"] {
+.nature .slider input[name="switch"] {
   display: none;
 }
 
-.wall .switch {
+.nature .switch {
   position: absolute;
   left: 0;
   bottom: -40px;
@@ -44,7 +43,7 @@ body {
   width: 100%;
 }
 
-.wall .switch label {
+.nature .switch label {
   display: inline-block;
   width: 8px;
   height: 8px;
@@ -57,58 +56,58 @@ body {
   transition: 0.3s;
 }
 
-.wall #btn1:checked~.switch label[for="btn1"] {
+.nature #btn1:checked~.switch label[for="btn1"] {
   background-color: #96CCFE;
   transition: 0.3s;
 }
 
-.wall #btn2:checked~.switch label[for="btn2"] {
+.nature #btn2:checked~.switch label[for="btn2"] {
   background-color: #96CCFE;
   transition: 0.3s;
 }
 
-.wall #btn3:checked~.switch label[for="btn3"] {
+.nature #btn3:checked~.switch label[for="btn3"] {
   background-color: #96CCFE;
   transition: 0.3s;
 }
 
-.wall .slider-inner {
+.nature .slider-inner {
   overflow: hidden;
 }
 
-.wall .slides {
+.nature .slides {
   width: 300%;
   transition: all 0.5s;
 }
 
-.wall .slides img {
+.nature .slides img {
   width: 680px;
   height: 340px;
   float: left;
   border-radius: 10px;
 }
 
-.wall #btn1:checked~slider-inner slides {
+.nature #btn1:checked~slider-inner slides {
   transform: translate(0);
 }
 
-.wall #btn2:checked~.slider-inner .slides {
+.nature #btn2:checked~.slider-inner .slides {
   transform: translate(-680px);
 }
 
-.wall #btn3:checked~.slider-inner .slides {
+.nature #btn3:checked~.slider-inner .slides {
   transform: translate(-1360px);
 }
-.wall #btn1:checked~.switch label[for="btn1"]:hover {
+.nature #btn1:checked~.switch label[for="btn1"]:hover {
   background-color: #94e4a9;
 }
-.wall #btn2:checked~.switch label[for="btn2"]:hover {
+.nature #btn2:checked~.switch label[for="btn2"]:hover {
   background-color: #94e4a9;
 }
-.wall #btn3:checked~.switch label[for="btn3"]:hover {
+.nature #btn3:checked~.switch label[for="btn3"]:hover {
   background-color: #94e4a9;
 }
-.wall .switch label:hover {
+.nature .switch label:hover {
   display: inline-block;
   width: 8px;
   height: 8px;
@@ -119,25 +118,25 @@ body {
   border: 5px solid #94e4a9;
   background-color: #94e4a9;
 }
-.wall p {
+.nature p {
 	color: #8EB4FE;
 	text-shadow: 0 0 7px #A2FFC7;
 	margin-left: 25px;
 	width: 725px;
   margin-top: 50px;
 }
-.wall iframe {
+.nature iframe {
   margin-left: 8.5px;
   border-radius: 10px;
   box-shadow: 0 0 4px 0 #7BB5EA;
 }
-.wall iframe:hover {
+.nature iframe:hover {
   margin-left: 8.5px;
   border-radius: 10px;
   box-shadow: 0 0 4px 0 #39AE5A;
 }
 
-.acropolis .slider {
+.islands .slider {
   position: relative;
   width: 680px;
   margin: 25px;
@@ -145,15 +144,15 @@ body {
   border-radius: 10px;
   transition: 0.3s;
 }
-.acropolis .slider:hover {
+.islands .slider:hover {
 	box-shadow: 0 0px 4px 0px #7BB5EA;
 }
 
-.acropolis .slider input[name="switch"] {
+.islands .slider input[name="switch"] {
   display: none;
 }
 
-.acropolis .switch {
+.islands .switch {
   position: absolute;
   left: 0;
   bottom: -40px;
@@ -161,7 +160,7 @@ body {
   width: 100%;
 }
 
-.acropolis .switch label {
+.islands .switch label {
   display: inline-block;
   width: 8px;
   height: 8px;
@@ -174,57 +173,57 @@ body {
   transition: 0.3s;
 }
 
-.acropolis #btn4:checked~.switch label[for="btn1"] {
+.islands #btn4:checked~.switch label[for="btn1"] {
   background-color: #96CCFE;
   transition: 0.3s;
 }
 
-.acropolis #btn5:checked~.switch label[for="btn2"] {
+.islands #btn5:checked~.switch label[for="btn2"] {
   background-color: #96CCFE;
   transition: 0.3s;
 }
 
-.acropolis #btn6:checked~.switch label[for="btn3"] {
+.islands #btn6:checked~.switch label[for="btn3"] {
   background-color: #96CCFE;
   transition: 0.3s;
 }
 
-.acropolis .slider-inner {
+.islands .slider-inner {
   overflow: hidden;
 }
 
-.acropolis .slides {
+.islands .slides {
   width: 300%;
   transition: all 0.5s;
 }
 
-.acropolis .slides img {
+.islands .slides img {
   width: 680px;
   height: 340px;
   float: left;
   border-radius: 10px;
 }
 
-.acropolis #btn4:checked~slider-inner slides {
+.islands #btn4:checked~slider-inner slides {
   transform: translate(0);
 }
 
-.acropolis #btn5:checked~.slider-inner .slides {
+.islands #btn5:checked~.slider-inner .slides {
   transform: translate(-680px);
 }
-.acropolis #btn6:checked~.slider-inner .slides {
+.islands #btn6:checked~.slider-inner .slides {
   transform: translate(-1360px);
 }
-.acropolis #btn4:checked~.switch label[for="btn4"]:hover {
+.islands #btn4:checked~.switch label[for="btn4"]:hover {
   background-color: #94e4a9;
 }
-.acropolis #btn5:checked~.switch label[for="btn5"]:hover {
+.islands #btn5:checked~.switch label[for="btn5"]:hover {
   background-color: #94e4a9;
 }
-.acropolis #btn6:checked~.switch label[for="btn6"]:hover {
+.islands #btn6:checked~.switch label[for="btn6"]:hover {
   background-color: #94e4a9;
 }
-.acropolis .switch label:hover {
+.islands .switch label:hover {
   display: inline-block;
   width: 8px;
   height: 8px;
@@ -235,23 +234,23 @@ body {
   border: 5px solid #94e4a9;
   background-color: #94e4a9;
 }
-.acropolis p {
+.islands p {
 	color: #8EB4FE;
 	text-shadow: 0 0 7px #A2FFC7;
 	margin-left: 25px;
   margin-top: 50px;
 }
-.acropolis iframe {
+.islands iframe {
   margin-left: 8.5px;
   border-radius: 10px;
   box-shadow: 0 0 4px 0 #7BB5EA;
 }
-.acropolis iframe:hover {
+.islands iframe:hover {
   margin-left: 8.5px;
   border-radius: 10px;
   box-shadow: 0 0 4px 0 #39AE5A;
 }
-.acropolis h2 {
+.islands h2 {
 	color: white;
 	text-shadow: 0 0 5px #377BBA;
 	margin-left: 25px;
